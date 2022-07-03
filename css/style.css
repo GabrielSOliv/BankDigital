@@ -1,0 +1,335 @@
+header{
+    height: 10.1rem;
+    background-color: var(--white);
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    margin: 3rem 0;
+}
+
+header .menu-items ul{
+    display: flex;
+    align-items: center;
+}
+
+header .menu-items ul a{
+    color: var(--black);
+}
+
+header .menu-items ul li{
+    margin-right: 5.6rem;
+    text-transform: uppercase;
+}
+
+header .menu-items ul li:last-child{
+    margin-right: 0;
+}
+
+section.hero{
+    background: linear-gradient(107.31deg, var(--aqua) -11.65%, rgba(193, 255, 232, 0) 112.04%);
+}
+
+section.hero .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+section .text{
+    padding: 7rem 7rem 12.6rem 0;
+}
+
+section .text h1, span{
+    font-weight: 700;
+    font-size: 7.4rem;
+}
+
+section .text span{
+    background-color: var(--green);
+    color: var(--white);
+    padding: .7rem;
+}
+
+section .text p{
+    font-size: 2rem;
+    padding: 2rem 0 3.9rem 0;
+}
+
+section .text a{
+    
+    background-color: var(--black);
+    color: var(--white);
+    font-size: 2.5rem;
+    padding: 1.3rem 2.5rem;
+    
+}
+
+section .text h3{
+    padding-top: 3.9rem;
+    font-size: 2.4rem;
+}
+
+section .text .second-p{
+    padding-top: .7rem;
+}
+
+
+section img{
+    max-width: 100%;
+    padding: 7rem 0 0 7rem;
+}
+
+
+section.hero-card{
+    height: 81.5rem;
+}
+section.hero-card .container{
+    text-align: center;
+
+}
+
+section.hero-card .container .text{
+    padding: 0;
+    padding-top: 6rem;
+    
+}
+
+section.hero-card .container .text h3{
+    padding-bottom: 1.6rem;
+    text-transform: uppercase;
+    color: var(--green);
+    letter-spacing: 0.6rem;
+}
+
+section.hero-card .container .text h2{
+    font-weight: 700;
+    max-width: 97.5rem;
+    width: 100%;
+    display: inline-block;
+}
+
+section.hero-card .container .card-area{
+    display: flex;
+    justify-content: space-around;
+}
+
+section.hero-card .container .card{
+    box-shadow: 0 0 5rem var(--black-100);
+    height: 26.4rem;
+    width: 26.4rem;
+    margin-top: 9.6rem;
+
+}
+section.hero-card .container .card .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:3.2rem 19.2rem 3.6rem 2.4rem;
+    width: 4.8rem;
+    height: 4.8rem;
+            
+}
+
+section.hero-card .container .card.one .icon{
+    background-color: var(--aqua);
+}
+
+section.hero-card .container .card.two .icon{
+    background-color: var(--blue-100);
+}
+
+section.hero-card .container .card.three .icon{
+    background-color: var(--pink);
+}
+
+section.hero-card .container .card.four .icon{
+    background-color: var(--red);
+}
+
+section.hero-card .container .card .icon img{
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+section.hero-card .container .card .info{
+    text-align: left;
+    padding: 0;
+    margin: 0 2.4rem;
+    
+}
+section.hero-card .container .card .info p{
+    font-size: 2.2rem;
+    color: var(--black);
+    margin-bottom: 3.6rem;
+}
+
+section.hero-card .container .card .info a{
+    font-size: 1.8rem;
+    color: var(--green);
+    margin: 0;
+    padding: 0;
+}
+
+section.second-hero{
+    background: linear-gradient(107.31deg, var(--aqua) -11.65%, rgba(193, 255, 232, 0) 112.04%);
+}
+
+section.second-hero .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section.second-hero .container .model img{
+    max-width: 100%;
+    padding: 0;
+}
+
+section.second-hero .container .text{
+    width: 95.7rem;
+    height: 36.3rem;
+    padding: 0;
+    text-align: center;
+}
+
+section.second-hero .container .text h2{
+    font-weight: 700;
+}
+
+section.second-hero .container .text p{
+    text-align: center;
+}
+
+section.third-hero .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 60.4rem;
+}
+
+section.third-hero .container .info{
+    width: 41.6rem;
+}
+
+section.third-hero .container .info h3{
+    color: var(--green);
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+section.third-hero .container .info h2{
+    font-size: 3.6rem;
+    font-weight: 700;
+}
+
+section.third-hero .container .info p{
+    font-size: 2.2rem;
+}
+
+footer{
+    background-color: var(--black-banner);
+}
+
+
+footer main .container nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: solid rgba(255, 255, 255, 0.333);
+}
+
+footer main .container nav .item{
+    padding: 5.8rem 0 4rem 0;
+}
+
+footer main .container nav .item a{
+    color: var(--white);
+    font-size: 1.8rem;
+}
+
+footer main .container nav .item li{
+    padding-bottom:2.7rem;
+}
+
+footer main .container nav .item li:last-child{
+    padding: 0;
+}
+
+footer main .container .social-media .logos{
+    padding-top: 1.4rem;
+    display: flex;
+    
+}
+
+footer main .container .social-media .logos img{
+    background-color: var(--white);
+    
+}
+
+footer main .container .social-media .logos a{
+    padding-right: .5rem;
+}
+
+footer main .container .social-media .logos a:last-child{
+    padding-right: 0;
+}
+
+footer main .container .footer-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer main .container .footer-info .submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+footer main .container .footer-info .submit input{
+    width: 32.9rem;
+    height: 3.2rem;
+    
+}
+
+footer main .container .footer-info .submit button{
+    background-color: var(--yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:3.2rem;
+    width: 3.2rem;
+    margin: 0;
+    padding: 0;
+}
+
+footer main .container .privacy{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+footer main .container .privacy label, footer main .container .privacy span{
+    font-size:1.4rem;
+    font-weight: 400;
+    color: var(--white);
+}
+
+
+footer main .container .privacy label{
+    padding-left: 0.7rem;
+}
+
+
+footer .container p{
+    font-size: 1.4rem;
+    color: var(--white)
+}
